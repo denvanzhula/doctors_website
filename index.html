@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourDoc</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- normalize css -->
+    <link rel = "stylesheet" href = "css/normalize.css">
+    <!-- custom css -->
+    <link rel = "stylesheet" href = "css/main.css">
+</head>
+<body>
+    
+
+    <!-- header -->
+    <header class = "header bg-blue">
+        <nav class = "navbar bg-blue">
+            <div class = "container flex">
+                <a href = "index.html" class = "navbar-brand">
+                    <img src = "images/logo.png" alt = "site logo">
+                </a>
+                <button type = "button" class = "navbar-show-btn">
+                    <img src = "images/ham-menu-icon.png">
+                </button>
+
+                <div class = "navbar-collapse bg-white">
+                    <button type = "button" class = "navbar-hide-btn">
+                        <img src = "images/close-icon.png">
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link"><b>Головна</b></a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link"><b>Про нас</b></a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link"><b>Послуги</b></a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link"><b>Лікарі</b></a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link"><b>Відділення</b></a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link"><b>Блог</b></a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link"><b>Контакти</b></a>
+                        </li>
+                    </ul>
+                    <div class = "search-bar">
+                        <form>
+                            <div class = "search-bar-box flex">
+                                <span class = "search-icon flex">
+                                    <img src = "images/search-icon-dark.png">
+                                </span>
+                                <input type = "search" class = "search-control" placeholder="Шукати">
+                            </div>
+                        </form>
+                    </div>
+                </div> 
+            </div>
+        </nav>
+
+        <div class = "header-inner text-white text-center">
+            <div class = "container grid">
+                <div class = "header-inner-left">
+                    <h1>Знайди свого<br> <span>кращого лікаря</span></h1>
+                    <p class = "lead">Ідеальний лікар у твоєму районі</p>
+                    <p class = "text text-md">Знову чекати на запис? Знову довгі черги у лікарні? Або немає твого спеціаліста? Тут ти знайдеш професійного лікаря!</p>
+                    <div class = "btn-group">
+                        <a href = "#" class = "btn btn-white"><b>Більше</b></a>
+                        <a href = "#" class = "btn btn-light-blue"><b>Увійти</b></a>
+                    </div>
+                </div>
+                <div class = "header-inner-right">
+                    <img src = "images/header.png">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end of header -->
+
+    <main>
+        <!-- about section -->
+        <section id = "about" class = "about py">
+            <div class = "about-inner">
+                <div class = "container grid">
+                    <div class = "about-left text-center">
+                        <div class = "section-head">
+                            <h2>Про нас</h2>
+                            <div class = "border-line"></div>
+                        </div>
+                        <p class = "text text-lg">Команда YourDoc пропонує кожному зручний сервіс для пошуку свого ідеального лікаря у своєму районі! Тут можливо здійснити вибір як лікаря-терапевта для дорослих, так і лікаря-педіатра для маленьких клієнтів. У тому числі тут існує база лікарів вузької спеціалізації, до яких можна звернутись за будь-якої проблеми!</p>
+                        <a href = "#" class = "btn btn-white"><b>Більше</b></a>
+                    </div>
+                    <div class = "about-right flex">
+                        <div class = "img">
+                            <img src = "images/about-img.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of about section -->
+
+        <!-- banner one -->
+        <section id = "banner-one" class = "banner-one text-center">
+            <div class = "container text-white">
+                <blockquote class = "lead"><i class = "fas fa-quote-left"></i> Коли ти молодий і здоровий, тобі ніколи не спадає на думку, що за одну секунду все твоє життя може змінитися. <i class = "fas fa-quote-right"></i></blockquote>
+                <small class = "text text-sm">- YourDoc</small>
+            </div>
+        </section>
+        <!-- end of banner one -->
+
+        <!-- services section -->
+        <section id = "services" class = "services py">
+            <div class = "container">
+                <div class = "section-head text-center">
+                    <h2 class = "lead">Найкращий лікар дає найменше ліків</h2>
+                    <p class = "text text-lg">Це ідеальний спосіб показати свої лікарські послуги</p>
+                    <div class = "line-art flex">
+                        <div></div>
+                        <img src = "images/4-dots.png">
+                        <div></div>
+                    </div>
+                </div>
+                <div class = "services-inner text-center grid">
+                    <article class = "service-item">
+                        <div class = "icon">
+                            <img src = "images/service-icon-1.png">
+                        </div>
+                        <h3>Терапія</h3>
+                        <p class = "text text-sm">Лікар-терапевт збирає анамнез: з'ясовує причину звернення, вивчає історію хвороби, проводить медичний огляд. За підсумками проведеного огляду, після вивчення результатів аналізів та досліджень терапевт призначає курс лікування або при необхідності направляє до лікаря вузької спеціалізації</p>
+                    </article>
+
+                    <article class = "service-item">
+                        <div class = "icon">
+                            <img src = "images/service-icon-2.png">
+                        </div>
+                        <h3>Аналізи</h3>
+                        <p class = "text text-sm">Для аналізу беруть венозну кров, методом венепункції шприцем чи вакутайнером з голкою, капілярну кров з пальця руки. Використовують спеціальну одноразову голку, скарифікатор. Показники можуть відрізнятися у залежності від часу доби була забору крові, споживаної їжі, фізичної активності.</p>
+                    </article>
+
+                    <article class = "service-item">
+                        <div class = "icon">
+                            <img src = "images/service-icon-3.png">
+                        </div>
+                        <h3>Кардіологія</h3>
+                        <p class = "text text-sm">Телеметрична система кардіомоніторингу призначена для контролю показників ЕКГ із реєстрацією порушень серцевого ритму та провідності, рівня артеріального тиску, частоти серцевих скорочень, показників сатурації кисню.</p>
+                    </article>
+
+                    <article class = "service-item">
+                        <div class = "icon">
+                            <img src = "images/service-icon-4.png">
+                        </div>
+                        <h3>Виїзд до пацієнта</h3>
+                        <p class = "text text-sm">Новий рівень обслуговування пацієнтів в сфері лабораторної діагностики. Гарячкуючі хворі, громадяни поважного віку чи з інвалідністю, вагітні жінки, маленькі діти тощо. Усі ці пацієнти мають право на якісне медичне обслуговування та лабораторну діагностику.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- end of services section -->
+
+        <!-- banner two section -->
+        <section id = "banner-two" class = "banner-two text-center">
+            <div class = "container grid">
+                <div class = "banner-two-left">
+                    <img src = "images/banner-2-img.png">
+                </div>
+                <div class = "banner-two-right">
+                    <p class = "lead text-white">Коли ти молодий і здоровий, тобі ніколи не спадає на думку, що в одну секунду все твоє життя може змінитися.</p>
+                    <div class = "btn-group">
+                        <a href = "#" class = "btn btn-white"><b>Більше</b></a>
+                        <a href = "#" class = "btn btn-light-blue"><b>Увійти</b></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of banner two section -->
+
+        <!-- doctors section -->
+        <section id = "doc-panel" class = "doc-panel py">
+            <div class = "container">
+                <div class = "section-head">
+                    <h2>Популярні лікарі</h2>
+                </div>
+
+                <div class = "doc-panel-inner grid">
+                    <div class = "doc-panel-item">
+                        <div class = "img flex">
+                            <img src = "images/doc-1.png" alt = "doctor image">
+                            <div class = "info text-center bg-blue text-white flex">
+                                <p class = "lead"><b>Петро Іванчук</b></p>
+                                <p class = "text-lg">Терапевт</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "doc-panel-item">
+                        <div class = "img flex">
+                            <img src = "images/doc-2.png" alt = "doctor image">
+                            <div class = "info text-center bg-blue text-white flex">
+                                <p class = "lead"><b>Катерина Романова</b></p>
+                                <p class = "text-lg">Кардіолог</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "doc-panel-item">
+                        <div class = "img flex">
+                            <img src = "images/doc-3.png" alt = "doctor image">
+                            <div class = "info text-center bg-blue text-white flex">
+                                <p class = "lead"><b>Тетяна Тимошенко</b></p>
+                                <p class = "text-lg">Терапевт</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of doctors section -->
+
+        <!-- package services section -->
+        <section id = "package-service" class = "package-service py text-center">
+            <div class = "container">
+                <div class = "package-service-head text-white">
+                    <h2>Пакети послуг</h2>
+                    <p class = "text text-lg">Найкращий пакет послуг для тебе</p>
+                </div>
+                <div class = "package-service-inner grid">
+                    <div class = "package-service-item bg-white">
+                        <div class = "icon flex">
+                            <i class = "fas fa-phone fa-2x"></i>
+                        </div>
+                        <h3>Звичайний пакет</h3>
+                        <p class = "text text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, asperiores. Expedita, reiciendis quos beatae at consequatur voluptatibus fuga iste adipisci.</p>
+                        <a href = "#" class = "btn btn-blue">Читати більше</a>
+                    </div>
+
+                    <div class = "package-service-item bg-white">
+                        <div class = "icon flex">
+                            <i class = "fas fa-calendar-alt fa-2x"></i>
+                        </div>
+                        <h3>Плановий пакет</h3>
+                        <p class = "text text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, asperiores. Expedita, reiciendis quos beatae at consequatur voluptatibus fuga iste adipisci.</p>
+                        <a href = "#" class = "btn btn-blue">Читати більше</a>
+                    </div>
+                    
+                    <div class = "package-service-item bg-white">
+                        <div class = "icon flex">
+                            <i class = "fas fa-comments fa-2x"></i>
+                        </div>
+                        <h3>Терміновий пакет</h3>
+                        <p class = "text text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, asperiores. Expedita, reiciendis quos beatae at consequatur voluptatibus fuga iste adipisci.</p>
+                        <a href = "#" class = "btn btn-blue">Читати більше</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of package services section -->
+
+        <!-- posts section -->
+        <section id = "posts" class = "posts py">
+            <div class = "container">
+                <div class = "section-head">
+                    <h2>Останні новини</h2>
+                </div>
+                <div class = "posts-inner grid">
+                    <article class = "post-item bg-white">
+                        <div class = "img">
+                            <img src = "images/post-1.jpg">
+                        </div>
+                        <div class = "content">
+                            <h4>Надихаючі історії про допомогу, орієнтовану на людину та сім’ю під час глобальної пандемії.</h4>
+                            <p class = "text text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor voluptas eius recusandae sunt obcaecati esse facere cumque. Aliquid, cupiditate debitis.</p>
+                            <p class = "text text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quia ipsam, quis iure sed nulla.</p>
+                            <div class = "info flex">
+                                <small class = "text text-sm"><i class = "fas fa-clock"></i> Травень, 2023</small>
+                                <small class = "text text-sm"><i class = "fas fa-comment"></i> 10 коментарів</small>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class = "post-item bg-white">
+                        <div class = "img">
+                            <img src = "images/post-2.jpg">
+                        </div>
+                        <div class = "content">
+                            <h4>Надихаючі історії про допомогу, орієнтовану на людину та сім’ю під час глобальної пандемії.</h4>
+                            <p class = "text text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor voluptas eius recusandae sunt obcaecati esse facere cumque. Aliquid, cupiditate debitis.</p>
+                            <p class = "text text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quia ipsam, quis iure sed nulla.</p>
+                            <div class = "info flex">
+                                <small class = "text text-sm"><i class = "fas fa-clock"></i> Квітень, 2023</small>
+                                <small class = "text text-sm"><i class = "fas fa-comment"></i> 5 коментарів</small>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class = "post-item bg-white">
+                        <div class = "img">
+                            <img src = "images/post-3.jpg">
+                        </div>
+                        <div class = "content">
+                            <h4>Надихаючі історії про допомогу, орієнтовану на людину та сім’ю під час глобальної пандемії.</h4>
+                            <p class = "text text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor voluptas eius recusandae sunt obcaecati esse facere cumque. Aliquid, cupiditate debitis.</p>
+                            <p class = "text text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quia ipsam, quis iure sed nulla.</p>
+                            <div class = "info flex">
+                                <small class = "text text-sm"><i class = "fas fa-clock"></i> Червень, 2022</small>
+                                <small class = "text text-sm"><i class = "fas fa-comment"></i> 3 коментарів</small>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- end of posts section -->
+
+        <!-- contact section -->
+        <section id = "contact" class = "contact py">
+            <div class = "container grid">
+                <div class = "contact-left">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d705.6397699969787!2d32.01556644797748!3d46.97195025235621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c5cbd4efc81f6b%3A0xce65747b2a772481!2sPetro%20Mohyla%20Black%20Sea%20National%20University!5e0!3m2!1sen!2sua!4v1683025885975!5m2!1sen!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class = "contact-right text-white text-center bg-blue">
+                    <div class = "contact-head">
+                        <h3 class = "lead">Контакти</h3>
+                        <p class = "text text-md">Кожен користувач може надіслати свій повідомлення, яке хвилює або цікавить, нам</p>
+                    </div>
+                    <form>
+                        <div class = "form-element">
+                            <input type = "text" class = "form-control" placeholder="Ваше ім'я">
+                        </div>
+                        <div class = "form-element">
+                            <input type = "email" class = "form-control" placeholder="Ваша електронна пошта">
+                        </div>
+                        <div class = "form-element">
+                            <textarea rows = "5" placeholder="Повідомлення" class = "form-control"></textarea>
+                        </div>
+                        <button type = "submit" class = "btn btn-white btn-submit">
+                            <i class = "fas fa-arrow-right"></i>Відправити повідомлення
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- end of contact section -->
+    </main>
+
+    <!-- footer  -->
+    <footer id = "footer" class = "footer text-center">
+        <div class = "container">
+            <div class = "footer-inner text-white py grid">
+                <div class = "footer-item">
+                    <h3 class = "footer-head">Про нас</h3>
+                    <div class = "icon">
+                        <img src = "images/logo.png">
+                    </div>
+                    <p class = "text text-md">Команда YourDoc пропонує кожному зручний сервіс для пошуку свого ідеального лікаря у своєму районі! Тут можливо здійснити вибір як лікаря-терапевта для дорослих, так і лікаря-педіатра для маленьких клієнтів. У тому числі тут існує база лікарів вузької спеціалізації, до яких можна звернутись за будь-якої проблеми!</p>
+                    <address><b>
+                        ЧНУ ім. П. Могили <br>
+                        вул. 68 Десантників 10 <br>
+                        Миколаїв, Миколаївська область <br>
+                        Україна
+                    </b></address>
+                </div>
+
+                <div class = "footer-item">
+                    <h3 class = "footer-head">теги</h3>
+                    <ul class = "tags-list flex">
+                        <li>медичний догляд</li>
+                        <li>надзвичайна ситуація</li>
+                        <li>терапія</li>
+                        <li>хірургія</li>
+                        <li>медсестра</li>
+                        <li>перевірка зору</li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h3 class = "footer-head">Посилання</h3>
+                    <ul>
+                        <li><a href = "#" class = "text-white">Наші послуги</a></li>
+                        <li><a href = "#" class = "text-white">Наші тарифи</a></li>
+                        <li><a href = "#" class = "text-white">Політика конфіденційності</a></li>
+                        <li><a href = "#" class = "text-white">Записи до лікарів</a></li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h3 class = "footer-head">Підтримка</h3>
+                    <p class = "text text-md">Якщо потрібна будь-яка окрема консультація, можна звертатись за контактами нижче. Працюємо за таким графіком:</p>
+                    <ul class = "appointment-info">
+                        <li>00:00 - 23:00 (Пн-Пт)</li>
+                        <li>01:00 - 22:00 (Сб)</li>
+                        <li>07:00 - 17:00 (Нд)</li>
+                        <li>
+                            <i class = "fas fa-envelope"></i>
+                            <span>den.vanzhula@gmail.com</span>
+                        </li>
+                        <li>
+                            <i class = "fas fa-phone"></i>
+                            <span>+380 959 477 021</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class = "footer-links">
+                <ul class = "flex">
+                    <li><a href = "https://www.facebook.com/ce.pmbsnu" class = "text-white flex"> <i class = "fab fa-facebook-f"></i></a></li>
+                    <li><a href = "https://www.instagram.com/cebsnu/" class = "text-white flex"> <i class = "fab fa-instagram"></i></a></li>
+                    <li><a href = "https://chmnu.edu.ua/" class = "text-white flex"> <i class = "fab fa-dribbble"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer  -->
+
+
+    <!-- custom js -->
+    <script src = "js/script.js"></script>
+</body>
+</html>
